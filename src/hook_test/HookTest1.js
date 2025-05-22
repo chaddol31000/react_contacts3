@@ -11,7 +11,7 @@ function useCounter(initialValue=1) {
   const dec=()=> setValue(prev=>prev-1);
 
   return {value, inc, dec};
-}
+}                        
 
 function HookTest1() {
   const {value, inc, dec} = useCounter(1);
